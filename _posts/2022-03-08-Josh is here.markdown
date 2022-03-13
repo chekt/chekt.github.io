@@ -121,7 +121,7 @@ writer: Josh
 
 - 참고
 
-  https://velog.io/@mollog/React에서의-가상돔-개념
+  [React에서의 가상돔 개념](https://velog.io/@mollog/React에서의-가상돔-개념)
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]: https://github.com/jekyll/jekyll
