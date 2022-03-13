@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Josh is here"
-date: 2022-03-12 11:30:11 +0900
-categories: jekyll update
+categories: Vue.js
+writer: Josh
 ---
 
 <!-- @format -->
