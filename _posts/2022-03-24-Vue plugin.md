@@ -5,8 +5,6 @@ categories: Vue.js
 writer: Chas
 ---
 
-# Vue Plugins
-
 vue 프로젝트 구조에 대해, 그 중에서도 plugin 사용에 대한 주제로 얘기를 나눠보려고 합니다.
 작업을 하면서 이곳 저곳에서 app을 인자로 받으며 `app.config.globalPropertie` 에 접근하는 경우가 많았습니다.
 
@@ -23,7 +21,6 @@ app와 관련지어 plugins을 얘기하되, 프로젝트 구조를 이해하는
 5. 그래서 Plugin을 어떻게 사용하는가
 
 ---
-
 ## 1. app은 무엇인가?
 
 ### app의 출발점: main.js
@@ -37,7 +34,7 @@ app와 관련지어 plugins을 얘기하되, 프로젝트 구조를 이해하는
 이는 기존의 뷰 인스턴스 생성하는 것과 같습니다.
 
 ```jsx
-// 기존
+// Vue2에서의 Vue instance 생성법
 import Vue from 'vue';
 import App from './App.vue';
 
@@ -49,6 +46,7 @@ new Vue({
 ### console.log에서 app의 모습
 
 ![](https://images.velog.io/images/qmasem/post/a78d0705-e8e0-4081-9967-9545a3ee0187/Screen%20Shot%202022-03-24%20at%209.57.42%20AM.png)
+
 여기서는 config.globalProperties를 주목해서 봐주시기를 바랍니다.
 
 ---
